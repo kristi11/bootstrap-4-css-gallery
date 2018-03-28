@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap 4 css gallery</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Custom css-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body class="bg-light">
+
+<div class="container-fluid">
+<h1 class="display-4 space text-center">Bootstrap 4 gallery</h1>
+
+<div class="card-columns">
+  <!-- First image -->
+  <div class="card cs-shadow no_border text-center">
+    <img class="card-img" src="./images/earth.jpg" alt="Card image">
+     <div class="card-body">
+      <ul class="nav justify-content-center">
+
+        <!-- Trigger modal begin-->
+        <li class="nav-item">
+          <a class="nav-link active" href="#" data-toggle="modal" data-target="#exampleModalCenter">
+            <i class="material-icons">search</i>
+          </a>
+        </li>
+        <!-- Trigger modal end-->
+
+        <!-- Modal begin-->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Earth.jpg</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img class="card-img" src="./images/earth.jpg" alt="Card image">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Do something</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal end-->
+
+        <!-- The rest of action buttons -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="material-icons">favorite_border</i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="material-icons">star_border</i>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <!-- The rest of action buttons end-->
+
+        </ul>
+    </div>
+  </div>
+
+  <!-- Second image -->
+  <div class="card cs-shadow no_border text-center">
+      <img class="card-img" src="./images/warren-wong.jpg" alt="Card image">
+       <div class="card-body">
+        <ul class="nav justify-content-center">
+
+          <!-- Trigger modal begin-->
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-toggle="modal" data-target="#exampleModalCenter1">
+              <i class="material-icons">search</i>
+            </a>
+          </li>
+          <!-- Trigger modal end-->
+
+          <!-- Modal begin-->
+          <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" 
+          aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Warren-wong.jpg</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="card-img" src="./images/warren-wong.jpg" alt="Card image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Do something</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal end-->
+
+          <!-- The rest of action buttons -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">favorite_border</i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">star_border</i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <!-- The rest of action buttons end-->
+
+          </ul>
+      </div>
+    </div>
+
+      <!-- Third image -->
+  <div class="card cs-shadow no_border text-center">
+      <img class="card-img" src="./images/toa-heftiba.jpg" alt="Card image">
+       <div class="card-body">
+        <ul class="nav justify-content-center">
+
+          <!-- Trigger modal begin-->
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-toggle="modal" data-target="#exampleModalCenter2">
+              <i class="material-icons">search</i>
+            </a>
+          </li>
+          <!-- Trigger modal end-->
+
+          <!-- Modal begin-->
+          <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Toa-heftiba.jpg</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="card-img" src="./images/toa-heftiba.jpg" alt="Card image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Do something</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal end-->
+
+          <!-- The rest of action buttons -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">favorite_border</i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">star_border</i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <!-- The rest of action buttons end-->
+
+          </ul>
+      </div>
+    </div>
+
+  <!-- Fourth image -->
+  <div class="card cs-shadow no_border text-center">
+      <img class="card-img" src="./images/aditya-saxena.jpg" alt="Card image">
+       <div class="card-body">
+        <ul class="nav justify-content-center">
+
+          <!-- Trigger modal begin-->
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-toggle="modal" data-target="#exampleModalCenter3">
+              <i class="material-icons">search</i>
+            </a>
+          </li>
+          <!-- Trigger modal end-->
+
+          <!-- Modal begin-->
+          <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Aditya-saxena.jpg</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="card-img" src="./images/aditya-saxena.jpg" alt="Card image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Do something</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal end-->
+
+          <!-- The rest of action buttons -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">favorite_border</i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">star_border</i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <!-- The rest of action buttons end-->
+
+          </ul>
+      </div>
+    </div>
+
+  <!-- Fifth image -->
+  <div class="card cs-shadow no_border text-center">
+      <img class="card-img" src="./images/nathan-dumlao.jpg" alt="Card image">
+       <div class="card-body">
+        <ul class="nav justify-content-center">
+
+          <!-- Trigger modal begin-->
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-toggle="modal" data-target="#exampleModalCenter4">
+              <i class="material-icons">search</i>
+            </a>
+          </li>
+          <!-- Trigger modal end-->
+
+          <!-- Modal begin-->
+          <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Nathan-dumlao.jpg</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="card-img" src="./images/nathan-dumlao.jpg" alt="Card image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Do something</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal end-->
+
+          <!-- The rest of action buttons -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">favorite_border</i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">star_border</i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <!-- The rest of action buttons end-->
+
+          </ul>
+      </div>
+    </div>
+
+  <!-- Sixth image -->
+  <div class="card cs-shadow no_border text-center">
+      <img class="card-img" src="./images/fisherman.jpg" alt="Card image">
+       <div class="card-body">
+        <ul class="nav justify-content-center">
+
+          <!-- Trigger modal begin-->
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-toggle="modal" data-target="#exampleModalCenter5">
+              <i class="material-icons">search</i>
+            </a>
+          </li>
+          <!-- Trigger modal end-->
+
+          <!-- Modal begin-->
+          <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Fisherman.jpg</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="card-img" src="./images/fisherman.jpg" alt="Card image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Do something</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal end-->
+
+          <!-- The rest of action buttons -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">favorite_border</i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">star_border</i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <!-- The rest of action buttons end-->
+
+          </ul>
+      </div>
+    </div>
+
+    <!-- Seventh image -->
+  <div class="card cs-shadow no_border text-center">
+      <img class="card-img" src="./images/old-boats.jpg" alt="Card image">
+       <div class="card-body">
+        <ul class="nav justify-content-center">
+
+          <!-- Trigger modal begin-->
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-toggle="modal" data-target="#exampleModalCenter6">
+              <i class="material-icons">search</i>
+            </a>
+          </li>
+          <!-- Trigger modal end-->
+
+          <!-- Modal begin-->
+          <div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Old-boats.jpg</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="card-img" src="./images/old-boats.jpg" alt="Card image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Do something</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal end-->
+
+          <!-- The rest of action buttons -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">favorite_border</i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">star_border</i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <!-- The rest of action buttons end-->
+
+          </ul>
+      </div>
+    </div>
+
+     <!-- eighth image -->
+  <div class="card cs-shadow no_border text-center">
+      <img class="card-img" src="./images/joshua-k-jackson.jpg" alt="Card image">
+       <div class="card-body">
+        <ul class="nav justify-content-center">
+
+          <!-- Trigger modal begin-->
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-toggle="modal" data-target="#exampleModalCenter7">
+              <i class="material-icons">search</i>
+            </a>
+          </li>
+          <!-- Trigger modal end-->
+
+          <!-- Modal begin-->
+          <div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Joshua-k-jackson.jpg</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="card-img" src="./images/joshua-k-jackson.jpg" alt="Card image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Do something</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal end-->
+
+          <!-- The rest of action buttons -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">favorite_border</i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">star_border</i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <!-- The rest of action buttons end-->
+
+          </ul>
+      </div>
+    </div>
+
+  <!-- ninth image -->
+  <div class="card cs-shadow no_border text-center">
+      <img class="card-img" src="./images/thought-catalog.jpg" alt="Card image">
+       <div class="card-body">
+        <ul class="nav justify-content-center">
+
+          <!-- Trigger modal begin-->
+          <li class="nav-item">
+            <a class="nav-link active" href="#" data-toggle="modal" data-target="#exampleModalCenter8">
+              <i class="material-icons">search</i>
+            </a>
+          </li>
+          <!-- Trigger modal end-->
+
+          <!-- Modal begin-->
+          <div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Thought-catalog.jpg</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="card-img" src="./images/thought-catalog.jpg" alt="Card image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Do something</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal end-->
+
+          <!-- The rest of action buttons -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">favorite_border</i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="material-icons">star_border</i>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="material-icons">more_vert</i></a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </li>
+            <!-- The rest of action buttons end-->
+
+          </ul>
+      </div>
+    </div>
+</div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
